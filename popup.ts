@@ -320,7 +320,7 @@ export class CookiePopup {
     //Title
     let checkbox_label = document.createElement("label");
     checkbox_label.setAttribute("for", checkbox_id);
-    checkbox_label.innerText = "Save preferences on this computer.";
+    checkbox_label.innerText = "Zapisz ustawienia na tym urządzeniu";
     checkbox_label.classList.add("gdpr-popup-save-pref-label");
     container.appendChild(checkbox_label);
 
